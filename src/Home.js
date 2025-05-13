@@ -23,9 +23,11 @@ function Home() {
           src="https://ns-develops.github.io/.ART-Gallery-web/videos/video2.mp4"
         />
    
-        <div className="address">
-          Flemminggatan 20, 112 26 Stockholm
+   <div className="address">
+          <div className="address-line">Flemminggatan 20</div>
+          <div className="address-line">112 26 Stockholm</div>
         </div>
+        
       </header>
     </div>
   );
