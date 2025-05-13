@@ -6,9 +6,9 @@ function Contact() {
       <h1>Kontakta oss</h1>
       <p>Här är vår kontaktinformation.</p>
       <ul>
-        <li>Email: example@example.com</li>
-        <li>Telefon: +123 456 789</li>
-        <li>Adress: 123 Konstgatan, Stockholm</li>
+        Email: example@example.com
+        Telefon: +123 456 789
+        Adress: 123 Konstgatan, Stockholm
       </ul>
     </div>
   );
