@@ -1,14 +1,14 @@
 
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';  // Importera React Router v6
-import Home from './Home';  // Importera Home-komponenten
-import Contact from './Contact';  // Importera Contact-komponenten
+import Home from './Home';  
+import Contact from './Contact';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          {/* Lägg till en navigeringsmeny för att gå mellan sidor */}
+        
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
@@ -16,10 +16,9 @@ function App() {
             </ul>
           </nav>
           
-          {/* Definiera rutter här */}
           <Routes>
-            <Route path="/" element={<Home />} />  {/* Home-sidan */}
-            <Route path="/contact" element={<Contact />} />  {/* Contact-sidan */}
+            <Route path="/" element={<Home />} />  
+            <Route path="/contact" element={<Contact />} />  
           </Routes>
         </header>
       </div>
