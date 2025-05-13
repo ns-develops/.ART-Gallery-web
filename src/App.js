@@ -4,10 +4,8 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/.ART-Gallery-web">
       <div className="App">
-
-      
         <div className="corner-nav">
           <div className="logo-left">Favorable.</div>
           <Link to="/contact" className="contact-link">Contact</Link>
