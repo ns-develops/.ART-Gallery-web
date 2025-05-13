@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <section className="scrolling-text-container">
+          <div className="scrolling-line" />
+          <p className="scrolling-text">
+            UI DESIGN MODERN ART UI DESIGN MODERN ART UI DESIGN MODERN ART
+          </p>
+          <div className="scrolling-line" />
+        </section>
+    
+        <video autoPlay loop muted className="background-video">
+          <source src="/videos/video2.mp4" type="video/mp4" />
+    
+        </video>
       </header>
     </div>
   );
