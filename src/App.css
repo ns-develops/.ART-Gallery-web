@@ -55,13 +55,11 @@
   height: 100vh;
 }
 
-
 html, body, .App {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
 
 .background-video {
   position: fixed;      
@@ -73,6 +71,7 @@ html, body, .App {
   z-index: -1;          
   pointer-events: none;  
 }
+
 .corner-contact {
   position: fixed; 
   top: 20px;
@@ -105,7 +104,6 @@ html, body, .App {
   padding: 0 20px;
 }
 
-
 .logo-left {
   font-weight: bold;
   color: white;
@@ -114,13 +112,12 @@ html, body, .App {
   border-radius: 4px;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
   font-weight: bold;
   color: white;
   font-size: 18px;
   padding: 6px 10px;
-  border-radius: 4px;
   font-weight: normal;
   font-family: 'American Typewriter', 'Courier New', monospace; 
   gap: 50px;               
@@ -139,4 +136,48 @@ html, body, .App {
 
 .contact-link:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .scrolling-text {
+    font-size: 24px;
+  }
+
+  .corner-nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 8px;
+    width: auto;
+    gap: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .corner-contact {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logo-left {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .App-header {
+    padding: 20px;
+  }
 }

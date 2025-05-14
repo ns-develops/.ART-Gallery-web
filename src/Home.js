@@ -24,7 +24,7 @@ function Home() {
         />
    
    <div className="address">
-          <div className="address-line">Flemminggatan 20</div>
+          <div className="address-line">Adress street name 20</div>
           <div className="address-line">112 26 Stockholm</div>
         </div>
         

@@ -8,13 +8,13 @@ function App() {
       <div className="App">
        
         <div className="corner-nav">
-          <div className="logo-left">Favorable.</div>
+          <div className="logo-left">BOOK VISIT</div>
 
        
           <div className="middle-nav">
             <Link to="/" className="nav-link">ART</Link>
-            <Link to="/app" className="nav-link">American Typewriter</Link>
-            <Link to="/ideas" className="nav-link">New Coffees</Link>
+            <Link to="/app" className="nav-link">The Shop.</Link>
+            <Link to="/ideas" className="nav-link">Utställningar</Link>
           </div>
 
           <Link to="/contact" className="contact-link">Contact</Link>
