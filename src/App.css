@@ -114,6 +114,18 @@ html, body, .App {
   border-radius: 4px;
 }
 
+.nav-link{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: normal;
+  font-family: 'American Typewriter', 'Courier New', monospace; 
+  gap: 50px;               
+  width: 100%;              
+}
 
 .contact-link {
   text-decoration: none;
