@@ -12,9 +12,9 @@ function App() {
 
        
           <div className="middle-nav">
-            <Link to="/" className="nav-link">Typewriter</Link>
-            <Link to="/app" className="nav-link">American</Link>
-            <Link to="/ideas" className="nav-link">Coffee</Link>
+            <Link to="/" className="nav-link">ART</Link>
+            <Link to="/app" className="nav-link">American Typewriter</Link>
+            <Link to="/ideas" className="nav-link">New Coffees</Link>
           </div>
 
           <Link to="/contact" className="contact-link">Contact</Link>
