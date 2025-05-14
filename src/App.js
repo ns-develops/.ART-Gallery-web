@@ -14,7 +14,7 @@ function App() {
           <div className="middle-nav">
             <Link to="/" className="nav-link">ART</Link>
             <Link to="/app" className="nav-link">The Shop.</Link>
-            <Link to="/ideas" className="nav-link">Utställningar</Link>
+            <Link to="/ideas" className="nav-link">Exhibitions</Link>
           </div>
 
           <Link to="/contact" className="contact-link">Contact</Link>
